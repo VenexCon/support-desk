@@ -1,0 +1,39 @@
+import axios from "axios";
+
+const API_URL = "/api/users";
+
+//register user
+
+const register = async (userData) => {
+  const response = await axios.post(API_URL, userData);
+
+  if (response.data) {
+    localStorage.setItem("user", JSON.stringify(response.data));
+  }
+
+  return response.data;
+};
+
+//login user
+
+const login = async (userData) => {
+  const API_LOGIN = "/api/users/login";
+  const response = await axios.post(API_LOGIN, userData);
+
+  if (response.data) {
+    localStorage.setItem("user", JSON.stringify(response.data));
+  }
+
+  return response.data;
+};
+
+//logout user
+const logout = () => localStorage.removeItem("user");
+
+const authService = {
+  register,
+  logout,
+  login,
+};
+
+export default authService;
