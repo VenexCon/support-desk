@@ -14,7 +14,7 @@ with Create-React-App, and Redux toolkit for state management on the front end
 
 ## Technologies Used
 
-[![Skills used](https://skillicons.dev/icons?i=js,html,css,,react, node, express, mongodb)](https://skillicons.dev)
+[![Skills used](https://skillicons.dev/icons?i=js,html,css,,react, node, express, mongodb)](https://skillicons.dev)]
 
 ## Deployment
 
