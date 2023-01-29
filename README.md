@@ -19,7 +19,7 @@ with Create-React-App, and Redux toolkit for state management on the front end
 
 ## Deployment
 
-Link! [Support Desk](https://venex-support-desk.onrender.com/login)
+Link! [Support Desk](https://venex-support-desk.onrender.com)
 
 ## Deployment Platform
 This was deployed to Render.com, given Heroku's removal of it's free tier. Render uses Heroku but has a simplier build process with no need for the CLI or Heroku
